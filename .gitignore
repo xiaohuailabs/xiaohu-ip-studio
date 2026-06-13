@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.DS_Store
+# 用户本地配置/密钥永不入库(实际 key 在 ~/.config/,这里只防误放)
+config.yaml
+config.json
+# 临时产物
+/tmp/
+*.tmp
