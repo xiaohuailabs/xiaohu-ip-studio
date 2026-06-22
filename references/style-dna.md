@@ -105,10 +105,58 @@ Mixed-media infographic on clean bright white textured paper with generous negat
 - 每个点只挑 **1 个**元素做 3D 写实焦点,别堆满(堆满就乱、就丢留白)
 - 图内中文是文生图画的,仍受「字少 2-8 字 + 错字重生」铁律——标注一多就糊,精确文字不是它强项
 
+## 皮肤 H:极简线条(线条小狗式,最克制省笔)
+
+```
+ultra-minimalist line illustration, drawn with the FEWEST possible strokes — line-dog / Gudetama economy of line, deliberately simple, cute and a little crude. Single even-weight, slightly wobbly hand-drawn outlines. HUGE generous empty white space, plain white background. NO shading, NO gradients, NO hatching, NO texture, NO background scenery. Strictly MONOCHROME ink (soft warm charcoal / near-black, not harsh pure black) PLUS exactly ONE small accent color as a 本色 spot (e.g. the character's signature red glasses) — nothing else is colored. Emotion read from just a few expressive marks (brows, mouth, a sweat drop), sticker / meme vibe. NOT a detailed line drawing, NOT painterly, NOT solid color blocks, NOT 3D.
+```
+- 适合:轻松话题、态度/情绪共鸣、表情包味、想要极致留白和呼吸感的克制版面;也适合一篇里穿插一两张"喘口气"的轻图
+- **跟皮肤 B 的区别(别混)**:B 黑白线稿是"完整线稿,只是不上色,细节还在";H 是"少到几根线、刻意简陋可爱、再留一点本色"——线条小狗 vs 工笔线描。要更简、更省笔、更萌 → H
+- ⛔ **核心信息守门(最关键,2026-06-22 用户加这款时的硬约束)**:H 的"极简"只减**质感和多余细节**(阴影/纹理/背景/繁线),**绝不减结构和标注**。用在解释图(轨道二)时,框、箭头、中文标签照样**画全、画清楚**,只是用最省的线去画。判据:擦掉装饰这张图还能看懂结构和文字 = 对;为了"简"把标签/结构也省了 = 错(那是丢信息,不是极简)
+- 锚点:传角色锚点锁脸,prompt 写 "keep the character's identity and signature features but REDRAW in ultra-minimal few-stroke line style; ignore the reference's shading and colors except the one signature accent"
+- **视觉契约关系**:H 跟 B 同属**线条系**——共享通用契约的"白底 / 柔和均匀光 / 背景不虚化 / 非写实"四维;只有"精致度"取**极简符号感**(不是盲盒手办)、"色调"取**单墨 + 一点本色**(不是暖橙红满铺)。一篇选了 H 就整篇 H,别和 A(3D)混排
+
+## 皮肤 I:Notion 小蓝人(蓝调简洁,SaaS 讲解感)⚠️ 自带轻契约
+
+```
+Clean simple Notion "blue people" illustration: minimal friendly figures in a MONOCHROME BLUE / indigo palette — medium blue ink outlines with flat soft-blue and pale-blue fills, on a clean off-white / very light background. Friendly, simple, a little geometric but warm; LOTS of empty white space; totally FLAT (NO gradient, NO shading, NO grain, NO 3D). The clean SaaS-explainer Notion look. The ONLY non-blue accent is the character's signature (e.g. 小互 红框眼镜); everything else stays in the blue family.
+```
+- 适合:产品 / 效率 / 工具 / 讲解类,干净 SaaS 调
+- **自带轻契约**:蓝单色 + 白底 + 全平涂,不走默认暖橙红 / 盲盒
+- ⚠️ **黑发会被蓝化**:纯蓝派接受(最像 Notion 小蓝人);要保签名黑发 → prompt 写 "keep hair black, everything else blue"
+- **多人协作**:可加一个**无脸通用小蓝人**当配角(Notion 招牌画面),主角仍锁定 IP
+- 锚点:传角色锚点锁脸,prompt 写 "simplify to a flat single-blue Notion figure"
+
+## 皮肤 J:Notion 文学线稿(Roman Muradov 风,松弛书卷)⚠️ 自带轻契约
+
+```
+Loose literary PEN-AND-INK illustration in the early-Notion / Roman Muradov style: expressive, slightly-imperfect black ink linework with a confident artful wobble, light cross-hatching for shading, on a warm off-white / cream paper background. Whimsical, calm, bookish, a touch surreal. Mostly black ink on cream; at most ONE tiny accent (小互 红框眼镜). NOT clean vector, NOT a simple doodle, NOT 3D — an artist's loose ink drawing. Generous white space.
+```
+- 适合:深度 / 观点 / 思考类,书卷气、有灵魂
+- **跟皮肤 B 黑白线稿的区别(别混)**:B 是干净简笔"餐巾纸涂鸦";J 是松弛艺术排线的**画家手笔**(有交叉排线、有不规整笔触)。要简笔选 B,要文学手绘选 J
+- **自带轻契约**:奶油底 + 黑墨排线,不走默认暖橙红 / 盲盒;锚点锁脸,prompt 写 "loose expressive pen-and-ink"
+
+## 皮肤 K:Notion 暖色编辑(复古油印 / riso)⚠️ 自带独立契约
+
+```
+Warm muted Notion-style editorial illustration: friendly hand-drawn ink line on a WARM CREAM paper background, a LIMITED MUTED RETRO palette (desaturated terracotta / rust, muted sage green, dusty blue, soft ochre) as FLAT fills with a subtle risograph-like grain and gentle off-register edges. Calm, warm, approachable, mid-century. NO gradients, minimal shading, NOT 3D.
+```
+- 适合:温暖 / 人文话题
+- ⚠️ **跟皮肤 D 编辑插画(纽约客)接近,二选一**:D 偏聪明锐利杂志感,K 偏温和友好复古油印。要"亲和松弛"选 K,要"锐利有态度"选 D
+- **自带独立契约**:奶油底 + 土系低饱和 + 油印颗粒,不走默认暖橙红 / 盲盒
+
+## ⛔ 什么算一款"独立皮肤"(加新皮肤前必过这关,2026-06-22 用户纠正)
+
+新皮肤必须在**笔法 / 媒介 / 抽象度 / 构成**层面真不一样才算一款。**只是把色彩降饱和 / 拧成单色 / 转灰度 ≠ 新皮肤**——那是同一张插画拧了下调色旋钮,不是新风格。
+- **踩坑出处**:把"蓝图细线""淡灰铅笔""蓝调单色"当三款独立"不抢戏"低调风提报,被用户一句"你只是降低了图像饱和度"否掉。
+- **真正区分风格的维度**:笔法/媒介(木刻版画 / 拼贴剪纸 / 半调网点 / 蚀刻 / 水墨写意 / 蜡笔厚涂)、抽象度与构成(几何抽象不画脸 / 把 IP 化成版式里的功能图标 / 孟菲斯·包豪斯构成)——这些**满色也成立**。
+- **"不抢戏"不靠降饱和**:靠结构法则(角色小 + 嵌进结构几何 + 同墨同线,见 `explanatory-diagrams.md`)。任何皮肤满色都能不抢戏,前提是守这三条。
+- **判据**:候选皮肤跟库里已有皮肤并排——只差**颜色浓淡 / 色相** = 同一款,不收;差的是**笔触肌理 / 构成逻辑** = 才是新款。
+
 ## 怎么选皮肤
 
-1. 用户 `--style 3d/sketch/flat/mixmedia` 指定 → 用指定
-2. 没指定 → 按调性推荐:**产品/封面→3D,观点深度→editorial,人文温暖→watercolor,教程→扁平或黑白,轻松梗→marker,信息图/强冲击对比→mixmedia(混合媒介)**;报给用户一句"这篇建议用 X 皮肤,要换吗",不确定就用默认 3D
+1. 用户 `--style 3d/sketch/flat/mixmedia/minimal/notion-blue/notion-ink/notion-warm` 指定 → 用指定
+2. 没指定 → 按调性推荐:**产品/封面→3D,观点深度→editorial,人文温暖→watercolor,教程→扁平或黑白,轻松梗→marker,信息图/强冲击对比→mixmedia(混合媒介),极致克制/线条小狗味/留白呼吸→minimal(极简线条),产品/效率/SaaS 讲解→notion-blue(小蓝人),深度/观点/书卷→notion-ink(Muradov 文学线稿),温暖人文→notion-warm(暖色油印,或 editorial)**;报给用户一句"这篇建议用 X 皮肤,要换吗",不确定就用默认 3D
 3. 一篇文章内所有配图**用同一种皮肤**,不要混(否则一组图风格不统一)
 
 ## 颜色 / 情绪色

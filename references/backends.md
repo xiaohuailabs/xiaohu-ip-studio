@@ -14,7 +14,7 @@ python3 scripts/illo.py doctor   # 自检:key / 角色库 / 脚本是否就绪
 | 字段 | 说明 |
 |---|---|
 | `base_url` | 图像 API 端点。OpenAI 官方 `https://api.openai.com/v1`,或任何兼容网关 |
-| `model` | 图像模型名(如 `gpt-image-1`) |
+| `model` | 图像模型名(默认 `gpt-image-2`——本技能的文字铁律按它的中文 ~99% 准确率写;也可填任何兼容模型,但换更弱的模型要回退 prompt-template 的「文字层方案」兜底) |
 | `api_key` | 你自己的 key,永不上传 |
 
 ## 调用

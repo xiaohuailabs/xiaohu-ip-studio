@@ -3,6 +3,6 @@
 # 支持任何 OpenAI 兼容的图像生成端点(OpenAI 官方 / 各类兼容网关)
 
 base_url: "https://api.openai.com/v1"   # 你的图像 API 端点
-model: "gpt-image-1"                      # 图像模型名
+model: "gpt-image-2"                      # 图像模型名(默认;本技能文字铁律按它的中文 ~99% 准确率写)
 api_key: "<在这里填你自己的 key,或用 illo.py init>"
 image_size: "1024"                        # 长边像素(可选)
