@@ -94,6 +94,14 @@
 
 > 完整可交互版（含人设说明）打开 [`ip-library.html`](ip-library.html)。
 
+## 效果样例
+
+三个角色,按「三轨」各配一张,直接感受配出来什么样([完整图文教程 →](docs/introduction.md)):
+
+<table><tr><td align="center" width="33%"><img src="https://raw.githubusercontent.com/xiaohuailabs/xiaohu-ip-studio/main/assets/article/14-demo-emotion-titi.png" width="260"><br><sub><b>情绪图</b> · 替替演「被 AI 替代」</sub></td><td align="center" width="33%"><img src="https://raw.githubusercontent.com/xiaohuailabs/xiaohu-ip-studio/main/assets/article/15-demo-diagram-xiaohu.png" width="260"><br><sub><b>解释图</b> · 小互讲「上下文压缩」</sub></td><td align="center" width="33%"><img src="https://raw.githubusercontent.com/xiaohuailabs/xiaohu-ip-studio/main/assets/article/16-demo-comic-4panel.png" width="260"><br><sub><b>四格漫画</b> · 打工人用 AI 心路</sub></td></tr></table>
+
+> 同一套画风、同一个世界,三种形态——这就是「三轨分流」:情绪图负责共鸣、解释图负责讲懂、四格负责讲故事。
+
 ## 装
 
 任何认 `SKILL.md`(Agent Skills 格式)的 agent 都能用(Claude Code / Codex / 小龙虾 / Hermes 等)。依赖只有 `python3`(纯标准库,零第三方包)。

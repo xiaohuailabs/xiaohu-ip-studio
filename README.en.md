@@ -65,6 +65,14 @@ A packaged [Agent Skill](https://docs.claude.com/en/docs/claude-code/skills) tha
 
 > Open [`ip-library.html`](ip-library.html) for the full interactive lineup with personality notes.
 
+## Showcase
+
+Three characters, one image each along the "three tracks" — see what it actually produces ([full illustrated tutorial →](docs/introduction.md)):
+
+<table><tr><td align="center" width="33%"><img src="https://raw.githubusercontent.com/xiaohuailabs/xiaohu-ip-studio/main/assets/article/14-demo-emotion-titi.png" width="260"><br><sub><b>Emotion</b> · Titi as "replaced by AI"</sub></td><td align="center" width="33%"><img src="https://raw.githubusercontent.com/xiaohuailabs/xiaohu-ip-studio/main/assets/article/15-demo-diagram-xiaohu.png" width="260"><br><sub><b>Diagram</b> · Xiaohu on "context compression"</sub></td><td align="center" width="33%"><img src="https://raw.githubusercontent.com/xiaohuailabs/xiaohu-ip-studio/main/assets/article/16-demo-comic-4panel.png" width="260"><br><sub><b>4-panel comic</b> · a worker's journey with AI</sub></td></tr></table>
+
+> Same art style, same world, three different forms — that's three-track routing: emotion images for resonance, diagrams to explain, comics for story.
+
 ## What it does
 
 Hand a finished article to your agent and say "illustrate this." It reads the whole piece, decides which passages deserve an image, invents a fresh visual metaphor for each, and draws them — all performed by one fixed character you choose. Illustrate article after article and your own IP identity quietly establishes itself.
